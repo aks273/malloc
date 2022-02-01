@@ -8,7 +8,7 @@ We print/log to stderr, to avoid recursive calls to the system malloc.
 
 The following functions
 - `calloc` (`malloc` but filling the alloc'ed memory with 0's)
-- `realloc` (changing the size of an already allocated chunk of memory) 
+- `realloc` (changing the size of an already alloce'ed chunk of memory) 
 - `free` 
 
 have also been implemented.
